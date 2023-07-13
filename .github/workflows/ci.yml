@@ -2,10 +2,7 @@ name: ci
 
 on:
   pull_request:
-    branches: ['main']
-  schedule:
-    # https://crontab.guru/#*/5 * * * 1-5
-    - cron: '*/5 * * * 1-5'
+    branches: ["main"]
   workflow_dispatch:
 
 concurrency:
